@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+  <!-- light -->
+  <head>
+    <!-- Até o momento esses links são por testes, talvez tenha que ser trocado mais para frente :/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="assets/profile.png"
+          alt="Foto do Justino com camisa azul, óculos e com fundo preto"
+        />
+        <!-- mudar imagem dps com o figma (avatarglobal)-->
+        <p>@justinoreis</p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Sobre mim</a>
+        </li>
+        <li>
+          <a href="#">Veja meu repositório</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Veja meu portifólio</a>
+        </li>
+      </ul>
+
+      <!-- https://ionic.io/ionicons -->
+      <div id="social-links">
+        <a href="https://github.com/justino1806" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/_justino.exe_/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/justinodosreis" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <footer>Feito por <a href="#" target="_blank">Justino Reis</a></footer>
+      <!-- rodapé -->
+    </div>
+
+    <!-- Script p/ os incons funcionarem -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
